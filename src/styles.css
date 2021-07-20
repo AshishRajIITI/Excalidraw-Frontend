@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.button-wrapper button {
+  z-index: 1;
+  height: 40px;
+  max-width: 200px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.excalidraw .App-menu_top .buttonList {
+  display: flex;
+}
+
+.excalidraw-wrapper {
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 1);
+  width: 80%;
+}
+
+:root[dir="ltr"] .excalidraw .layer-ui__wrapper .zen-mode-transition.App-menu_bottom--transition-left {
+  transform: none
+}
+
+.excalidraw .panelColumn {
+  text-align: left;
+}
+
+.export-wrapper {
+  display: flex;
+  flex-direction: column;  
+}
+
+.buttonDisplayImages{
+  background-color: #4c9ce7;
+  border: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
